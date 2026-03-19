@@ -1,0 +1,8 @@
+# PowerShell-Skripte brauchen CRLF auf Windows
+*.ps1 text eol=crlf
+
+# Shell-Skripte brauchen LF
+*.sh text eol=lf
+
+# Allgemein: Auto-Detection
+* text=auto

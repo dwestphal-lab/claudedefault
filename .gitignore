@@ -33,5 +33,6 @@ playwright-report/
 .vercel/
 .turbo/
 
-# Claude Code (user-specific)
-.claude/
+# Claude Code (user-specific, nicht Template-relevant)
+.claude/settings.local.json
+.claude/projects/
