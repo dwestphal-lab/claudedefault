@@ -1,0 +1,33 @@
+{
+  "name": "claudedefault",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"cd backend && npm run dev\" \"cd frontend && next dev --port ${FRONTEND_PORT:-3000}\"",
+    "dev:db": "docker compose --env-file .env -f docker-compose.dev.yml up -d",
+    "dev:all": "npm run dev:db && npm run dev",
+    "init": "powershell -ExecutionPolicy Bypass -File scripts/Init-Project.ps1",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "typecheck": "cd backend && npm run typecheck && cd ../frontend && npm run typecheck",
+    "lint": "cd backend && npm run lint && cd ../frontend && npm run lint",
+    "test": "cd backend && npm test",
+    "docker:up": "docker compose --env-file .env up --build -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f",
+    "db:backup": "powershell -File scripts/Backup-Database.ps1",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "husky": "^9.1.0",
+    "lint-staged": "^15.3.0"
+  },
+  "lint-staged": {
+    "backend/src/**/*.ts": [
+      "eslint --fix"
+    ],
+    "frontend/src/**/*.{ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+}

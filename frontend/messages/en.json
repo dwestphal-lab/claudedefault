@@ -1,0 +1,60 @@
+{
+  "common": {
+    "appName": "App",
+    "login": "Login",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "page": "Page {current} of {total}"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "files": "Files",
+    "audit": "Audit Log",
+    "settings": "Settings"
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "loginButton": "Sign in with Microsoft",
+    "loggedInAs": "Signed in as {name}"
+  },
+  "users": {
+    "title": "Users",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "createdAt": "Created",
+    "total": "{count} users total",
+    "createUser": "Create User",
+    "userCreated": "User created",
+    "userUpdated": "User updated",
+    "userDeleted": "User deleted",
+    "emailTaken": "Email already taken"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "loggedInAs": "Signed in as",
+    "backend": "Backend",
+    "database": "Database",
+    "notReachable": "Not reachable"
+  },
+  "errors": {
+    "notFound": "Not Found",
+    "notFoundDescription": "The requested page does not exist.",
+    "errorTitle": "Error",
+    "errorDescription": "An unexpected error occurred.",
+    "retry": "Try again",
+    "backHome": "Back to home"
+  }
+}

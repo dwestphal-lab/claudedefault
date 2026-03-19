@@ -1,0 +1,60 @@
+{
+  "common": {
+    "appName": "App",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "search": "Suchen",
+    "loading": "Lade...",
+    "noData": "Keine Daten vorhanden",
+    "error": "Fehler",
+    "success": "Erfolgreich",
+    "back": "Zurück",
+    "next": "Weiter",
+    "page": "Seite {current} von {total}"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Benutzer",
+    "files": "Dateien",
+    "audit": "Audit Log",
+    "settings": "Einstellungen"
+  },
+  "auth": {
+    "loginTitle": "Anmelden",
+    "loginButton": "Mit Microsoft anmelden",
+    "loggedInAs": "Angemeldet als {name}"
+  },
+  "users": {
+    "title": "Benutzer",
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "createdAt": "Erstellt",
+    "total": "{count} Benutzer gesamt",
+    "createUser": "Benutzer erstellen",
+    "userCreated": "Benutzer erstellt",
+    "userUpdated": "Benutzer aktualisiert",
+    "userDeleted": "Benutzer gelöscht",
+    "emailTaken": "E-Mail bereits vergeben"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "loggedInAs": "Angemeldet als",
+    "backend": "Backend",
+    "database": "Datenbank",
+    "notReachable": "Nicht erreichbar"
+  },
+  "errors": {
+    "notFound": "Nicht gefunden",
+    "notFoundDescription": "Die angeforderte Seite existiert nicht.",
+    "errorTitle": "Fehler",
+    "errorDescription": "Ein unerwarteter Fehler ist aufgetreten.",
+    "retry": "Erneut versuchen",
+    "backHome": "Zur Startseite"
+  }
+}
